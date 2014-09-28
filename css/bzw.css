@@ -151,7 +151,9 @@ a:hover{
 .sub_box_cont dt .icon_0{
 	background-position: 0 0;
 }
-.sub_box_cont dt .icon_1{background-position:-168px 0}.sub_box_cont dt .icon_2{background-position:-338px 0}.sub_box_cont dt .icon_3{background-position:-502px 0}.sub_box_cont dt .icon_4{background-position:-669px 0}.sub_box_cont dt .icon_5{background-position:-833px 0}.sub_box_cont dd{line-height:20px;font-size:14px;color:#999;font-family:\5FAE\8F6F\96C5\9ED1}.m_cont_2{overflow:hidden;zoom:1}.sub_box_cont .tip{
+.sub_box_cont dt .icon_1{background-position:-168px 0}.sub_box_cont dt .icon_2{background-position:-338px 0}.sub_box_cont dt .icon_3{background-position:-502px 0}.sub_box_cont dt .icon_4{background-position:-669px 0}.sub_box_cont dt .icon_5{background-position:-833px 0}.sub_box_cont dd{line-height:20px;font-size:14px;color:#999;font-family:\5FAE\8F6F\96C5\9ED1}
+.m_cont_2{overflow:hidden;zoom:1}
+.sub_box_cont .tip{
 	margin-top: 20px;
 	text-align: left;
 	color: #999;
@@ -159,11 +161,3 @@ a:hover{
 	font-family: tahoma
 }
 .sub_box_cont .tip em{margin-left:20px}
-.m_cont_4{
-	background: url(http://i.thsi.cn/images/ifund/syb/cont_4.jpg) no-repeat scroll 0 0 transparent;
-	width: 998px;
-	height: 88px;
-	margin: 18px auto;
-	border: 1px solid #d3d3d3;
-}
-.mobile_opts{padding:43px 0 0 14px}.mobile_opts a{float:left;display:inline-block;overflow:hidden;zoom:1;margin-left:20px;width:70px;height:25px;text-indent:-9999px}.mobile_opts .android{width:75px}.mobile_opts .ml_none{margin-left:0}
