@@ -70,7 +70,11 @@ img{border:none;}
 
 /*top-mian*/
 #top-mian{width:950px;height:150px;margin:0;background-position:left -40px;overflow:hidden;clear:both;}
-#top-mian h2{font:bold 30px 黑体;color:#047bc6;padding:44px 0 0 20px;}
+#top-mian h2{
+	font: bold 30px 黑体;
+	color: #047bc6;
+	padding: 42px 0 0 20px;
+}
 #top-mian span{font:normal 12px 宋体;color:#666;cursor:pointer;}
 .ul02{margin:10px 0 0 25px;color:#666;cursor:pointer;}
 .ul02 li{float:left;margin:0 15px 0 0;font:normal 12px Arial;line-height:180%;}
@@ -81,8 +85,17 @@ img{border:none;}
 .InFieldName{width:300px;color:#999;padding:2px;font-size:12px;}
 
 /*main-right*/
-#main-right{width:706px;float:right;}
-.tab-r{width:706px;height:430px;background-position:left top;}
+#main-right{
+	width: 950px;
+	float: right;
+}
+.tab-r{
+	width: 950px;
+	height: 430px;
+	background-position: left top;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
 .tab-box{margin:0 0 0 30px;}
 .tab-box li{
 	float: left;
@@ -118,13 +131,23 @@ img{border:none;}
 .tab-box .active01{cursor: text;}
 
 .tab_con{
-	width: 690px;
+	width: 934px;
 	margin: 0 0 0 8px;
 	height: 367px;
 }
-.con-b{width:668px;height:68px;margin:0 0 6px 11px;}
-.b1{background-position:left -437px;}
-.con-b2{width:668px;height:135px;margin-left:11px;}
+.con-b{
+	width: 902px;
+	height: 68px;
+	margin: 0 0 6px 11px;
+}
+.b1{
+	background-position: left -437px;
+}
+.con-b2{
+	width: 902px;
+	height: 135px;
+	margin-left: 11px;
+}
 .b2{
 	background-position: left -508px;
 }
@@ -132,12 +155,16 @@ img{border:none;}
 .b4{background-position:left -579px;}
 .tab-t{
 	float: right;
-	margin: 1px 2px 0 0;
-	_margin: 1px 1px 0 0;
 	color: #222;
 	font-family: "宋体";
 	font-size: 14px;
 	font-weight: bold;
+	width: 835px;
+	margin-top: 1px;
+	margin-right: 4px;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding: 0px;
 }
 .tab-t th{
 	height: 30px;
@@ -176,22 +203,39 @@ img{border:none;}
 
 /*list-box*/
 .list-box{
-	width: 706px;
-	margin-top: 5px;
+	width: 950px;
 	background-image: url(../images/stockInvest/box-cen.gif);
 	background-repeat: repeat-y;
 	background-position: left top;
+	margin-bottom: 0px;
 }
 .list-botom{
-	width: 706px;
+	width: 950px;
 	height: 3px;
 	margin: 0;
 }
-.t-h1,.t-h2,.t-h3,.t-h4{width:706px;height:37px;}
-.t-h1 .l,.t-h4 .l{font:bold 14px 宋体;color:#035e92;margin:15px 0 0 52px;}
-.t-h2 .l,.t-h3 .l{font:bold 14px 宋体;color:#035e92;margin:15px 0 0 60px;}
-.t-h1{background-position:left -790px;}
-.t-h2{background-position:left -831px;}
+.t-h1,.t-h2,.t-h3,.t-h4{
+	width: 950px;
+	height: 32px;
+}
+.t-h1 .l,.t-h4 .l{
+	font: bold 14px 宋体;
+	color: #035e92;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.t-h2 .l,.t-h3 .l{
+	font: bold 14px 宋体;
+	color: #035e92;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.t-h1{
+	background-position: left -795px;
+}
+.t-h2{
+	background-position: left -836px;
+}
 .t-h3{background-position:left -872px;}
 .t-h4{background-position:left -913px;}
 .p-no2{float:left;width:350px;font:bold 14px 宋体;padding:10px 0 0 40px;color:#f68313;height:33px;margin:10px 0 0 40px;_margin:10px 0 0 20px;background-position:-675px -438px;}
@@ -200,17 +244,51 @@ img{border:none;}
 .no-pic1{float:left;margin:20px 0 0;cursor:pointer;}
 .tal{margin:120px 0 0 120px;width:380px;}
 .tal .no-pic{margin-left:120px;_margin-left:60px;}
-.t-flash{width:703px;height:255px;margin:0 0 0 2px;}
+.t-flash{
+	width: 942px;
+	height: 255px;
+	border: 1px solid #94BFDD;
+	margin-top: 1px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 3px;
+}
 
 .table02{
-	width: 704px;
+	width: 948px;
 	margin-left: 1px;
 }
 .enter{
 	float: right;
-	margin: 6px 6px 0 0;
 	width: 138px;
 	height: 30px;
 	background: url(../images/stockInvest/enter.png) no-repeat 0 0;
+	margin-top: 1px;
+	margin-right: 7px;
+	margin-bottom: 0;
+	margin-left: 0;
 }
-
+.set_now a{
+	display: block;
+	text-align: center;
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	color: #fff;
+	text-shadow: 1px 1px 2px #2771dc;
+	font-family: \5FAE\8F6F\96C5\9ED1;
+	font-size: 20px;
+	background-color: #6699FF;
+	margin-top: 18px;
+	margin-right: 0;
+	margin-bottom: 18px;
+	margin-left: 180px;
+	font-weight: bolder;
+}
+.set_now a:hover{
+	color: #FF6;
+	text-decoration: none;
+	background-color: #F00;
+	font-weight: bolder;
+}
