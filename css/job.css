@@ -3,12 +3,14 @@
 .content{
 	clear: both;
 	border: 1px solid #cfcbcb;
-	margin-top: 2px;
+	margin-top: 1px;
 	box-shadow: 0 0 0 1px #f2f2f2;
 	padding: 20px;
 	width: 920px;
 	line-height: 24px;
-	margin-bottom: 2px;
+	margin-bottom: 1px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .jobs_detail{
 	color: #666;
