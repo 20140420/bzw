@@ -96,6 +96,9 @@ img{border:none;}
 	margin-top: 4px;
 	margin-bottom: 4px;
 }
+.sort_img_noshow {
+	display: none;
+}
 .tab-box{margin:0 0 0 30px;}
 .tab-box li{
 	float: left;
@@ -129,7 +132,9 @@ img{border:none;}
 }
 .tab-box .active{cursor: pointer;}
 .tab-box .active01{cursor: text;}
-
+.hidden {
+	display: none;
+}
 .tab_con{
 	width: 934px;
 	margin: 0 0 0 8px;
@@ -181,7 +186,10 @@ img{border:none;}
 }
 .style4{font:bold 12px 宋体;color:#888;}
 
-.tablesorter{width:668px;margin:0 0 0 11px;}
+.tablesorter{
+	width: 902px;
+	margin: 0 0 0 11px;
+}
 .tablesorter th,.table02 th{
 	height: 30px;
 	color: #607382;

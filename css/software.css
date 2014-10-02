@@ -19,7 +19,14 @@ body{
 	float: right;
 }
 
-.banner { position:relative; width:100%; min-width:1000px; height:383px; background:#13295b; overflow:hidden; z-index:9; }
+.banner {
+	position: relative;
+	width: 100%;
+	min-width: 1000px;
+	height: 383px;
+	overflow: hidden;
+	z-index: 9;
+}
 
 #J_bannerPic li { width:100%; height:383px; overflow:hidden; } 
 #J_bannerPic li a { display:block; width:100%; height:383px; overflow:hidden; }
