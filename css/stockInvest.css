@@ -57,7 +57,12 @@ img{border:none;}
 .non{cursor:pointer;}
 
 /*page*/
-#page{width:950px;margin:0 auto;}
+#page{
+	overflow: hidden;
+	height: auto;
+	margin: 0px auto;
+	width: 950px;
+}
 
 /*menu*/
 #menu{width:950px;height:31px;margin:0;background-position:left top;overflow:hidden;clear:both;}
@@ -254,13 +259,39 @@ img{border:none;}
 .tal .no-pic{margin-left:120px;_margin-left:60px;}
 .t-flash{
 	width: 942px;
-	height: 255px;
-	border: 1px solid #94BFDD;
+	height: 100%;
 	margin-top: 1px;
 	margin-right: 0;
 	margin-bottom: 0;
 	margin-left: 3px;
 }
+.t-process{
+	width: 944px;
+	height: 130px;
+}
+a .bt_01 {
+	background: url(../images/it/bt_01.jpg) no-repeat;
+	width: 92px;
+	height: 51px;
+	line-height: 20px;
+	text-align: center;
+	padding-top: 5px;	
+	color: #0585BA;
+}
+a:hover .bt_01 {
+	background: url(../images/it/bt_02.jpg) no-repeat;
+	width: 92px;
+	height: 51px;
+	line-height: 20px;
+	color: #FF0000;
+	text-align: center;
+	padding-top: 5px;
+	cursor: pointer;
+}
+.bt_02 {background:url(../images/it/bt_02.jpg) no-repeat; width:92px; height:51px; line-height:20px; color:#FF0000; text-align:center;padding-top:5px;}
+.bt_05 {background:url(../images/it/bt_05.jpg) no-repeat; width:92px; height:34px; line-height:20px; color:#B800CE; text-align:center;padding-top:5px;}
+.bt_06 {background:url(../images/it/bt_06.jpg) no-repeat; width:92px; height:34px; line-height:20px; color:#000000; text-align:center;padding-top:5px;}
+
 
 .table02{
 	width: 948px;
@@ -299,4 +330,10 @@ img{border:none;}
 	text-decoration: none;
 	background-color: #F00;
 	font-weight: bolder;
+}
+.custom_color1 td{
+	background-color : #f3f3f3;
+}
+.custom_color2 td{
+	background-color: #e9edef;
 }
