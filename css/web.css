@@ -69,6 +69,8 @@ body{font:12px/180% Arial,Lucida,Verdana,"宋体",Helvetica,sans-serif;color:#33
 .footer_inner p {
 	color: #999;
 	text-align: center;
+	font-size: 12px;
+	font-family: "Arial Unicode MS";
 }
 .footer em{
 	margin-left: 10px;
