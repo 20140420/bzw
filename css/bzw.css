@@ -68,10 +68,7 @@ a:hover{
 	background-position: 0 0;
 }
 .line-cont{border-top:2px solid #fff;overflow:hidden;zoom:1}.fh-header{border-bottom:1px solid #cbcaca}
-.m_wraper_0{
-	width: 100%;
-	height: 100%;
-}
+.m_wraper_0{width:100%;overflow:hidden;zoom:1}
 .m_cont_0{
 	margin: 0 auto 34px;
 	width: 1000px;
